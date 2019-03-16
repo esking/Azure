@@ -1,4 +1,7 @@
 {
+  "eTag": null,
+  "location": null,
+  "name": "ProductionBackup",
   "properties": {
     "backupManagementType": "AzureIaasVM",
     "instantRpRetentionRangeInDays": 2,
@@ -29,4 +32,7 @@
     },
     "timeZone": "AUS Eastern Standard Time"
   },
+  "resourceGroup": "backup",
+  "tags": null,
+  "type": "Microsoft.RecoveryServices/vaults/backupPolicies"
 }
