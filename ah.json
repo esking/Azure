@@ -1,0 +1,36 @@
+{
+    "eTag": null,
+    "location": null,
+    "name": "ProductionBackup",
+    "properties": {
+        "backupManagementType": "AzureIaasVM",
+        "instantRpRetentionRangeInDays": 2,
+        "protectedItemsCount": 0,
+        "retentionPolicy": {
+            "dailySchedule": {
+                "retentionDuration": {
+                    "count": 7,
+                    "durationType": "Days"
+                },
+                "retentionTimes": [
+                    "2019-03-15T19:30:00+00:00"
+                ]
+            },
+            "monthlySchedule": null,
+            "retentionPolicyType": "LongTermRetentionPolicy",
+            "weeklySchedule": null,
+            "yearlySchedule": null
+        },
+        "schedulePolicy": {
+            "schedulePolicyType": "SimpleSchedulePolicy",
+            "scheduleRunDays": null,
+            "scheduleRunFrequency": "Daily",
+            "scheduleRunTimes": [
+                "2019-03-15T19:30:00+00:00"
+            ],
+            "scheduleWeeklyFrequency": 0
+        },
+        "timeZone": "AUS Eastern Standard Time"
+    },
+    "tags": null
+}
