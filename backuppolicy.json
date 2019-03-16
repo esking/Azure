@@ -1,8 +1,4 @@
 {
-  "eTag": null,
-  "id": "/Subscriptions/2a36c0ab-3d1a-4a08-af48-c326cf5b0456/resourceGroups/backup/providers/Microsoft.RecoveryServices/vaults/ProductionBackup/backupPolicies/AHProductionBackup",
-  "location": null,
-  "name": "AHProductionBackup",
   "properties": {
     "backupManagementType": "AzureIaasVM",
     "instantRpRetentionRangeInDays": 2,
@@ -33,7 +29,4 @@
     },
     "timeZone": "AUS Eastern Standard Time"
   },
-  "resourceGroup": "backup",
-  "tags": null,
-  "type": "Microsoft.RecoveryServices/vaults/backupPolicies"
 }
