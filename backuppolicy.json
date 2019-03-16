@@ -1,7 +1,7 @@
 {
   "properties": {
     "backupManagementType": "AzureIaasVM",
-    "timeZone": "AUS Eastern Standard Time",
+    "timeZone": "Pacific Standard Time",
     "schedulePolicy": {
       "schedulePolicyType": "SimpleSchedulePolicy",
       "scheduleRunFrequency": "Weekly",
