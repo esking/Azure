@@ -1,0 +1,78 @@
+{
+  "properties": {
+    "backupManagementType": "AzureIaasVM",
+    "timeZone": "AUS Eastern Standard Time",
+    "schedulePolicy": {
+      "schedulePolicyType": "SimpleSchedulePolicy",
+      "scheduleRunFrequency": "Weekly",
+      "scheduleRunTimes": [
+        "2018-01-24T10:00:00Z"
+      ],
+      "scheduleRunDays": [
+        "Monday",
+        "Wednesday",
+        "Thursday"
+      ]
+    },
+    "retentionPolicy": {
+      "retentionPolicyType": "LongTermRetentionPolicy",
+      "weeklySchedule": {
+        "daysOfTheWeek": [
+          "Monday",
+          "Wednesday",
+          "Thursday"
+        ],
+        "retentionTimes": [
+          "2018-01-24T10:00:00Z"
+        ],
+        "retentionDuration": {
+          "count": 1,
+          "durationType": "Weeks"
+        }
+      },
+      "monthlySchedule": {
+        "retentionScheduleFormatType": "Weekly",
+        "retentionScheduleWeekly": {
+          "daysOfTheWeek": [
+            "Wednesday",
+            "Thursday"
+          ],
+          "weeksOfTheMonth": [
+            "First",
+            "Third"
+          ]
+        },
+        "retentionTimes": [
+          "2018-01-24T10:00:00Z"
+        ],
+        "retentionDuration": {
+          "count": 2,
+          "durationType": "Months"
+        }
+      },
+      "yearlySchedule": {
+        "retentionScheduleFormatType": "Weekly",
+        "monthsOfYear": [
+          "February",
+          "November"
+        ],
+        "retentionScheduleWeekly": {
+          "daysOfTheWeek": [
+            "Monday",
+            "Thursday"
+          ],
+          "weeksOfTheMonth": [
+            "Fourth"
+          ]
+        },
+        "retentionTimes": [
+          "2018-01-24T10:00:00Z"
+        ],
+        "retentionDuration": {
+          "count": 4,
+          "durationType": "Years"
+        }
+      }
+    }
+  }
+}
